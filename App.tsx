@@ -55,7 +55,7 @@ const App: React.FC = () => {
       <div className={`fixed bottom-6 ${lang === 'ar' ? 'left-6' : 'right-6'} flex flex-col gap-4 z-50`}>
         <Assistant t={t} lang={lang} />
         <a
-          href="https://wa.me/33773989112"
+          href="https://wa.me/212724573895"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110 flex items-center justify-center group"
