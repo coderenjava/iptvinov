@@ -66,7 +66,7 @@ const Assistant: React.FC<Props> = ({ t, lang }) => {
       const aiText = response.text || "I'm sorry, I couldn't process that.";
       setMessages(prev => [...prev, { text: aiText, sender: 'ai' }]);
     } catch (error) {
-      setMessages(prev => [...prev, { text: "Service temporarily unavailable. Please use WhatsApp: +33773989112.", sender: 'ai' }]);
+      setMessages(prev => [...prev, { text: "Service temporarily unavailable. Please use WhatsApp: +212724573895.", sender: 'ai' }]);
     } finally {
       setLoading(false);
     }

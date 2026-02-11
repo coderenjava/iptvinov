@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   systemInstruction: `You are a helpful pre-sales and support assistant for IPTVinov, an IPTV subscription service. Always reply in the same language as the user's message. The current website language is ${currentLang}. Be polite, professional, and focus on converting the user to a customer.
                   Pricing: 1 Month: 10€, 6 Months: 45€, 1 Year: 70€.
                   Features: 20k+ channels, 80k+ VOD, 4K/UHD, works on most devices.
-                  Contact: WhatsApp (+33773989112), Email (support@iptvinov.com).`,
+                  Contact: WhatsApp (+212724573895), Email (support@iptvinov.com).`,
                 },
             });
             const aiText = response.text || "I'm sorry, I couldn't process that.";

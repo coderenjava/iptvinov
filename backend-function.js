@@ -66,7 +66,7 @@ exports.contactHandler = (req, res) => {
             <h2 style="color: #4f46e5;">Hello ${name},</h2>
             <p>Thank you for reaching out to <strong>IPTVinov</strong>!</p>
             <p>We have received your message regarding our IPTV subscriptions. One of our agents will review your request and get back to you within 24 hours.</p>
-            <p>If you need faster assistance, feel free to message us on WhatsApp: <strong>+33 7 73 98 91 12</strong></p>
+            <p>If you need faster assistance, feel free to message us on WhatsApp: <strong>+212-724-57-38-95</strong></p>
             <br/>
             <p>Best regards,<br/>The IPTVinov Team</p>
           </div>
