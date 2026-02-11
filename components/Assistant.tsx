@@ -54,7 +54,7 @@ const Assistant: React.FC<Props> = ({ t, lang }) => {
           - Works on Smart TVs (Samsung, LG), Android TV, Firestick, iOS, Smartphones, Mag boxes.
           
           Contact:
-          - WhatsApp: 0033773989112
+          - WhatsApp: 00212724573895
           - Email: support@iptvinov.com
           
           Important: Always reply in the same language as the user's message.
