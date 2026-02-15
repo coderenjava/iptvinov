@@ -42,8 +42,7 @@ const Contact: React.FC<Props> = ({ t }) => {
     setStatus('SUBMITTING');
 
     try {
-      // Formspree requires the form data to be sent as FormData or JSON
-      const response = await fetch('https://formspree.io/f/xoqkyyyr', { // Placeholder ID - user should replace with their Formspree ID
+      const response = await fetch('https://formspree.io/f/mvzbaqvz', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
@@ -63,7 +62,6 @@ const Contact: React.FC<Props> = ({ t }) => {
       }
     } catch (err) {
       console.error('Submission error:', err);
-      // Fallback for demo if ID is not set
       setStatus('ERROR');
       setTimeout(() => setStatus('IDLE'), 4000);
     }
