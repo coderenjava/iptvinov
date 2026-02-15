@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const handleSubscribe = (planName) => {
         const text = `Hello IPTVinov, I'm interested in the ${planName} plan.`;
-        window.open(`https://wa.me/33773989112?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/212724573895?text=${encodeURIComponent(text)}`, '_blank');
     };
 
     // Mobile Menu
